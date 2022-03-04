@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0ABB5827CD0BF0003A6D00 /* watcch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3F0ABB5727CD0BF0003A6D00 /* watcch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F0ABB5E27CD0BF0003A6D00 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0ABB5C27CD0BF0003A6D00 /* Interface.storyboard */; };
+		3F0ABB6027CD0BF1003A6D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0ABB5F27CD0BF1003A6D00 /* Assets.xcassets */; };
+		3F0ABB6627CD0BF1003A6D00 /* watcch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F0ABB6527CD0BF1003A6D00 /* watcch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F0ABB6B27CD0BF1003A6D00 /* TableRecipesIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0ABB6A27CD0BF1003A6D00 /* TableRecipesIC.swift */; };
+		3F0ABB6D27CD0BF1003A6D00 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0ABB6C27CD0BF1003A6D00 /* ExtensionDelegate.swift */; };
+		3F0ABB6F27CD0BF1003A6D00 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0ABB6E27CD0BF1003A6D00 /* NotificationController.swift */; };
+		3F0ABB7127CD0BF1003A6D00 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0ABB7027CD0BF1003A6D00 /* ComplicationController.swift */; };
+		3F0ABB7327CD0BF2003A6D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0ABB7227CD0BF2003A6D00 /* Assets.xcassets */; };
+		3F0ABB8627CD18D7003A6D00 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0ABB8527CD18D7003A6D00 /* Recipes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F0ABB5927CD0BF0003A6D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0ABB4D27CD0BF0003A6D00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0ABB5627CD0BF0003A6D00;
+			remoteInfo = "watcch WatchKit App";
+		};
+		3F0ABB6727CD0BF1003A6D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0ABB4D27CD0BF0003A6D00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0ABB6427CD0BF1003A6D00;
+			remoteInfo = "watcch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F0ABB7B27CD0BF2003A6D00 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3F0ABB6627CD0BF1003A6D00 /* watcch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0ABB7F27CD0BF2003A6D00 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3F0ABB5827CD0BF0003A6D00 /* watcch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F0ABB5327CD0BF0003A6D00 /* watcch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watcch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0ABB5727CD0BF0003A6D00 /* watcch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watcch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0ABB5D27CD0BF0003A6D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3F0ABB5F27CD0BF1003A6D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0ABB6527CD0BF1003A6D00 /* watcch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watcch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0ABB6A27CD0BF1003A6D00 /* TableRecipesIC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRecipesIC.swift; sourceTree = "<group>"; };
+		3F0ABB6C27CD0BF1003A6D00 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3F0ABB6E27CD0BF1003A6D00 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3F0ABB7027CD0BF1003A6D00 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3F0ABB7227CD0BF2003A6D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0ABB7427CD0BF2003A6D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0ABB7527CD0BF2003A6D00 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3F0ABB8327CD170C003A6D00 /* RowTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowTable.swift; sourceTree = "<group>"; };
+		3F0ABB8527CD18D7003A6D00 /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0ABB6227CD0BF1003A6D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0ABB4C27CD0BF0003A6D00 = {
+			isa = PBXGroup;
+			children = (
+				3F0ABB5B27CD0BF0003A6D00 /* watcch WatchKit App */,
+				3F0ABB6927CD0BF1003A6D00 /* watcch WatchKit Extension */,
+				3F0ABB5427CD0BF0003A6D00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F0ABB5427CD0BF0003A6D00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0ABB5327CD0BF0003A6D00 /* watcch.app */,
+				3F0ABB5727CD0BF0003A6D00 /* watcch WatchKit App.app */,
+				3F0ABB6527CD0BF1003A6D00 /* watcch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0ABB5B27CD0BF0003A6D00 /* watcch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3F0ABB5C27CD0BF0003A6D00 /* Interface.storyboard */,
+				3F0ABB8527CD18D7003A6D00 /* Recipes.swift */,
+				3F0ABB8327CD170C003A6D00 /* RowTable.swift */,
+				3F0ABB5F27CD0BF1003A6D00 /* Assets.xcassets */,
+			);
+			path = "watcch WatchKit App";
+			sourceTree = "<group>";
+		};
+		3F0ABB6927CD0BF1003A6D00 /* watcch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3F0ABB6A27CD0BF1003A6D00 /* TableRecipesIC.swift */,
+				3F0ABB6C27CD0BF1003A6D00 /* ExtensionDelegate.swift */,
+				3F0ABB6E27CD0BF1003A6D00 /* NotificationController.swift */,
+				3F0ABB7027CD0BF1003A6D00 /* ComplicationController.swift */,
+				3F0ABB7227CD0BF2003A6D00 /* Assets.xcassets */,
+				3F0ABB7427CD0BF2003A6D00 /* Info.plist */,
+				3F0ABB7527CD0BF2003A6D00 /* PushNotificationPayload.apns */,
+			);
+			path = "watcch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0ABB5227CD0BF0003A6D00 /* watcch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0ABB8027CD0BF2003A6D00 /* Build configuration list for PBXNativeTarget "watcch" */;
+			buildPhases = (
+				3F0ABB5127CD0BF0003A6D00 /* Resources */,
+				3F0ABB7F27CD0BF2003A6D00 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0ABB5A27CD0BF0003A6D00 /* PBXTargetDependency */,
+			);
+			name = watcch;
+			productName = watcch;
+			productReference = 3F0ABB5327CD0BF0003A6D00 /* watcch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3F0ABB5627CD0BF0003A6D00 /* watcch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0ABB7C27CD0BF2003A6D00 /* Build configuration list for PBXNativeTarget "watcch WatchKit App" */;
+			buildPhases = (
+				3F0ABB5527CD0BF0003A6D00 /* Resources */,
+				3F0ABB7B27CD0BF2003A6D00 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0ABB6827CD0BF1003A6D00 /* PBXTargetDependency */,
+			);
+			name = "watcch WatchKit App";
+			productName = "watcch WatchKit App";
+			productReference = 3F0ABB5727CD0BF0003A6D00 /* watcch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3F0ABB6427CD0BF1003A6D00 /* watcch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0ABB7827CD0BF2003A6D00 /* Build configuration list for PBXNativeTarget "watcch WatchKit Extension" */;
+			buildPhases = (
+				3F0ABB6127CD0BF1003A6D00 /* Sources */,
+				3F0ABB6227CD0BF1003A6D00 /* Frameworks */,
+				3F0ABB6327CD0BF1003A6D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watcch WatchKit Extension";
+			productName = "watcch WatchKit Extension";
+			productReference = 3F0ABB6527CD0BF1003A6D00 /* watcch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0ABB4D27CD0BF0003A6D00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3F0ABB5227CD0BF0003A6D00 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3F0ABB5627CD0BF0003A6D00 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3F0ABB6427CD0BF1003A6D00 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F0ABB5027CD0BF0003A6D00 /* Build configuration list for PBXProject "watcch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F0ABB4C27CD0BF0003A6D00;
+			productRefGroup = 3F0ABB5427CD0BF0003A6D00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0ABB5227CD0BF0003A6D00 /* watcch */,
+				3F0ABB5627CD0BF0003A6D00 /* watcch WatchKit App */,
+				3F0ABB6427CD0BF1003A6D00 /* watcch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F0ABB5127CD0BF0003A6D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0ABB5527CD0BF0003A6D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0ABB6027CD0BF1003A6D00 /* Assets.xcassets in Resources */,
+				3F0ABB5E27CD0BF0003A6D00 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0ABB6327CD0BF1003A6D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0ABB7327CD0BF2003A6D00 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0ABB6127CD0BF1003A6D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0ABB8627CD18D7003A6D00 /* Recipes.swift in Sources */,
+				3F0ABB6F27CD0BF1003A6D00 /* NotificationController.swift in Sources */,
+				3F0ABB7127CD0BF1003A6D00 /* ComplicationController.swift in Sources */,
+				3F0ABB6D27CD0BF1003A6D00 /* ExtensionDelegate.swift in Sources */,
+				3F0ABB6B27CD0BF1003A6D00 /* TableRecipesIC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F0ABB5A27CD0BF0003A6D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0ABB5627CD0BF0003A6D00 /* watcch WatchKit App */;
+			targetProxy = 3F0ABB5927CD0BF0003A6D00 /* PBXContainerItemProxy */;
+		};
+		3F0ABB6827CD0BF1003A6D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0ABB6427CD0BF1003A6D00 /* watcch WatchKit Extension */;
+			targetProxy = 3F0ABB6727CD0BF1003A6D00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F0ABB5C27CD0BF0003A6D00 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0ABB5D27CD0BF0003A6D00 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F0ABB7627CD0BF2003A6D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F0ABB7727CD0BF2003A6D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0ABB7927CD0BF2003A6D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "watcch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "watcch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.watcch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3F0ABB7A27CD0BF2003A6D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "watcch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "watcch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.watcch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3F0ABB7D27CD0BF2003A6D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = watcch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "watcch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.watcch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3F0ABB7E27CD0BF2003A6D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = watcch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "watcch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.watcch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3F0ABB8127CD0BF2003A6D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.watcch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3F0ABB8227CD0BF2003A6D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.watcch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0ABB5027CD0BF0003A6D00 /* Build configuration list for PBXProject "watcch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0ABB7627CD0BF2003A6D00 /* Debug */,
+				3F0ABB7727CD0BF2003A6D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0ABB7827CD0BF2003A6D00 /* Build configuration list for PBXNativeTarget "watcch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0ABB7927CD0BF2003A6D00 /* Debug */,
+				3F0ABB7A27CD0BF2003A6D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0ABB7C27CD0BF2003A6D00 /* Build configuration list for PBXNativeTarget "watcch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0ABB7D27CD0BF2003A6D00 /* Debug */,
+				3F0ABB7E27CD0BF2003A6D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0ABB8027CD0BF2003A6D00 /* Build configuration list for PBXNativeTarget "watcch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0ABB8127CD0BF2003A6D00 /* Debug */,
+				3F0ABB8227CD0BF2003A6D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0ABB4D27CD0BF0003A6D00 /* Project object */;
+}
